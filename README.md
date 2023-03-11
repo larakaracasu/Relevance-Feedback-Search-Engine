@@ -11,7 +11,7 @@ pip3 install scikit-learn </br>
 ### Unzip file: <br>
 tar -xvf filename.tar.gz </br>
 ### Run implementation: <br>
-python3 search_engine.py <Google Custom Search Engine JSON API Key> <Engine ID> <Precision> <Query> </br>
+python3 search_engine.py \<Google Custom Search Engine JSON API Key\> \<Engine ID\> \<Precision\> \<Query\> </br>
 
 ## Description of the internal design: 
 We start by reading in the stop words and html tags from the respective txt files. If the command-line arguments are entered incorrectly, we terminate the program. After accessing the Google API, we go through all the words in the query and exclude them from the list of stop words if the query term is also a stop word.
