@@ -39,8 +39,8 @@ The program can be run from the terminal using the following command:
 ```python
 python3 search_engine.py <API_Key> <Engine_Key> <Precision> <Query>
 ```
-- `<API_Key>`: Your Google API Key
-- `<Engine_Key>`: Your Google Engine Key
+- `<API_Key>`: Your JSON API Key
+- `<Engine_Key>`: Your Google search engine Key
 - `<Precision>`: The desired precision value
 - `<Query>`: The search query
 
